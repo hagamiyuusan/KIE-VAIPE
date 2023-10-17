@@ -1,0 +1,2 @@
+weights/text_recognition/transfomerocr.pth filter=lfs diff=lfs merge=lfs -text
+weights/kie/gcn.pkl filter=lfs diff=lfs merge=lfs -text
