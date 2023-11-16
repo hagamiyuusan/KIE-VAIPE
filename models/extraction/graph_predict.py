@@ -150,7 +150,6 @@ def load_gate_gcn_net(device, checkpoint_path):
 
 node_labels = ['other', 'brandname', 'quantity', 'date', 'usage', 'diagnose', 'generic']
 alphabet = ' "$(),-./0123456789:;ABCDEFGHIJKLMNOPQRSTUVWXYZ_ÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚÝĂĐĨŨƠƯẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼẾỀỂỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪỬỮỰỲỴỶỸ'
-checkpoint_path = '/media/thorpham/PROJECT/OCR-challenge/FULL_FOLLOW/GRAPH_MODEL/weights/graph_weight.pkl'
 
 class GRAPH_MODEL:
     def __init__(self,node_labels,alphabet,weight,device="cpu"):
